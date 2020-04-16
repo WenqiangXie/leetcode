@@ -35,18 +35,3 @@ bool isMatch(char *s, char *p)
         return false;
     }
 }
-
-
-int main()
-{
-    char *s = "ab", *p = ".*";
-    if(true == isMatch(s, p))
-    {
-        printf("match.");
-    }
-    else
-    {
-        printf("not match.");
-    }
-    return 0;
-}

@@ -30,11 +30,3 @@ int threeSumClosest(int* nums, int numsSize, int target)
     }
     return sum;
 }
-
-int main()
-{
-    int target = 1, closest, arr[] = {-1, 2, 1, -4};
-    closest = threeSumClosest(arr, sizeof(arr)/sizeof(int), target);
-    printf("The sum that is closest to the target is %d.", closest);
-    return 0;
-}
